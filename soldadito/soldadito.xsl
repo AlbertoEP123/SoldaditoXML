@@ -9,10 +9,10 @@
 					<xsl:value-of select="cancion/titulo"></xsl:value-of>
 						
 				</h2>
-					<xsl:for-each select="cancion/estrofa"/>
-					<xsl:for-each select="verso"/>
-					<xsl:value-of select=".">
-				</xsl:for-each>
+					<xsl:for-each select="cancion/estrofa"/></xsl:for-each>
+					<xsl:for-each select="verso"/></xsl:for-each>
+					<xsl:value-of select="."></xsl:value-of>
+				
 			</body>
 		</html>
 	</xsl:template>
