@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="soldadito.xsl"?>
-<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/1daw%20julio/Desktop/xml/soldadito.xsl">
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/1daw%20julio/Desktop/xml/soldadito.xsd">
     <titulo>Soldadito Marinero</titulo>
     <autor>Fito y Fitipaldis</autor>
 
