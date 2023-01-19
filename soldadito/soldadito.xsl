@@ -6,12 +6,15 @@
 			<body>
 				<h1>Información de la canción</h1>
 				<h2>
-					<xsl:value-of select="cancion/titulo"></xsl:value-of>
-						
+					<xsl:value-of>
+					<xsl:value-of select="cancion/titulo">
+					</xsl:value-of>	
 				</h2>
-					<xsl:for-each select="cancion/estrofa"/></xsl:for-each>
-					<xsl:for-each select="verso"/></xsl:for-each>
-					<xsl:value-of select="."></xsl:value-of>
+					<xsl:for-each>
+					<xsl:for-each select="cancion/estrofa"/>
+					<xsl:for-each select="verso"/>
+					<xsl:value-of select=".">
+					</xsl:for-each>
 				
 			</body>
 		</html>
