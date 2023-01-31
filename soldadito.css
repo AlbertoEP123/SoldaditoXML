@@ -1,0 +1,22 @@
+body{
+background-color: aquamarine;
+counter-reset: section 0;
+text-align: center;
+width: 40%;
+height: auto;
+border: solid 1px;
+margin: auto;
+padding: 2% 2% 2% 2%;
+}
+p::before{
+    
+    counter-increment: section 1;
+    content: "Verso " counter(section) ": ";
+}
+span{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(195, 28, 218);
+}
+
+
